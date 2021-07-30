@@ -1,0 +1,8 @@
+version: "3.2"
+
+services:
+  workspace:
+    image: php:8.0.2-apache-buster
+    container_name: php-extension-sandbox
+    volumes:
+      - .:/usr/src/workspace
